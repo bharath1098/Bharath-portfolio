@@ -17,7 +17,7 @@ export default function Family() {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        className="text-lg text-ag-muted text-center max-w-3xl mx-auto mb-12 leading-relaxed"
+        className="prose-text text-ag-forest/85 max-w-3xl mx-auto mb-12"
       >
         {t('family.description')}
       </motion.p>

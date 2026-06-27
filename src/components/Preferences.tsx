@@ -23,7 +23,7 @@ export default function Preferences() {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        className="text-ag-foreground/70 text-lg text-center max-w-3xl mx-auto mb-12 leading-relaxed"
+        className="prose-text text-ag-foreground/85 max-w-3xl mx-auto mb-12"
       >
         {t('preferences.description')}
       </motion.p>

@@ -19,7 +19,9 @@ export default function Contact() {
   return (
     <SectionWrapper id="contact">
       <SectionTitle eyebrow="Reach Out">{t('contact.title')}</SectionTitle>
-      <p className="text-center text-ag-muted mb-12 max-w-xl mx-auto">{t('contact.subtitle')}</p>
+      <p className="prose-text text-ag-forest/80 max-w-xl mx-auto mb-12 text-center sm:text-start">
+        {t('contact.subtitle')}
+      </p>
 
       <div className="grid lg:grid-cols-5 gap-10">
         <motion.div
