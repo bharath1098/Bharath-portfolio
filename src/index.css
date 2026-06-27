@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --font-serif: "Playfair Display", Georgia, serif;
+  --font-serif: "Inter", system-ui, sans-serif;
   --font-sans: "Inter", system-ui, sans-serif;
+  --font-section: "Magnific Chaos Personal Use", cursive;
   --radius-lg: 0.625rem;
   --color-ag-bg: var(--app-bg);
   --color-ag-forest: var(--app-forest);
@@ -55,11 +56,45 @@ body {
   color: var(--app-forest);
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  transition: background-color 0.3s ease, color 0.3s ease, font-family 0.2s ease;
+}
+
+html[lang="en"] {
+  --font-serif: "Inter", system-ui, sans-serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-section: "Magnific Chaos Personal Use", cursive;
+}
+
+html[lang="kn"] {
+  --font-serif: "Tiro Kannada", "Noto Sans Kannada", serif;
+  --font-sans: "Noto Sans Kannada", system-ui, sans-serif;
+  --font-section: "Tiro Kannada", "Noto Sans Kannada", serif;
+}
+
+html[lang="kn"] body {
+  line-height: 1.65;
+}
+
+html[lang="hi"] {
+  --font-serif: "Tiro Devanagari", "Noto Sans Devanagari", serif;
+  --font-sans: "Noto Sans Devanagari", system-ui, sans-serif;
+  --font-section: "Tiro Devanagari", "Noto Sans Devanagari", serif;
+}
+
+html[lang="hi"] body {
+  line-height: 1.65;
 }
 
 .font-serif {
   font-family: var(--font-serif);
+}
+
+.font-section-title {
+  font-family: var(--font-section);
+  font-weight: 400;
+  letter-spacing: 0.02em;
 }
 
 .gold-gradient {

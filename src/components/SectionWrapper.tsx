@@ -48,7 +48,7 @@ export function SectionTitle({
         </p>
       )}
       <h2
-        className={`font-serif text-3xl md:text-4xl font-semibold mb-3 ${
+        className={`font-section-title text-3xl md:text-4xl font-semibold mb-3 ${
           dark ? 'text-ag-foreground' : 'text-ag-forest'
         }`}
       >

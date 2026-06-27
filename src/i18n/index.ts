@@ -31,6 +31,10 @@ i18n.on('languageChanged', (lng) => {
   document.documentElement.dir = 'ltr'
 })
 
+i18n.on('initialized', () => {
+  document.documentElement.lang = i18n.resolvedLanguage ?? i18n.language
+})
+
 document.documentElement.dir = 'ltr'
 
 export default i18n
