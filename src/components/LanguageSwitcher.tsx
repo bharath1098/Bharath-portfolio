@@ -7,14 +7,19 @@ const languages = [
   { code: 'en', label: 'English', flag: '🇬🇧' },
   { code: 'kn', label: 'ಕನ್ನಡ', flag: '🇮🇳' },
   { code: 'hi', label: 'हिन्दी', flag: '🇮🇳' },
+  { code: 'te', label: 'తెలుగు', flag: '🇮🇳' },
 ]
+
+function matchesLang(current: string, code: string) {
+  return current === code || current.startsWith(`${code}-`)
+}
 
 export default function LanguageSwitcher() {
   const { i18n } = useTranslation()
   const [open, setOpen] = useState(false)
   const ref = useRef<HTMLDivElement>(null)
 
-  const current = languages.find((l) => l.code === i18n.language) ?? languages[0]
+  const current = languages.find((l) => matchesLang(i18n.language, l.code)) ?? languages[0]
 
   useEffect(() => {
     const handler = (e: MouseEvent) => {
@@ -57,7 +62,7 @@ export default function LanguageSwitcher() {
                 key={lang.code}
                 onClick={() => changeLanguage(lang.code)}
                 className={`w-full flex items-center gap-2 px-4 py-3 text-sm hover:bg-ag-secondary transition-colors ${
-                  i18n.language === lang.code
+                  matchesLang(i18n.language, lang.code)
                     ? 'bg-ag-gold/15 text-ag-emerald font-semibold'
                     : 'text-ag-forest'
                 }`}

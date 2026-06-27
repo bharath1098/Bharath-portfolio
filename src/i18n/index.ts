@@ -5,11 +5,13 @@ import LanguageDetector from 'i18next-browser-languagedetector'
 import en from '../../public/locales/en.json'
 import kn from '../../public/locales/kn.json'
 import hi from '../../public/locales/hi.json'
+import te from '../../public/locales/te.json'
 
 const resources = {
   en: { translation: en },
   kn: { translation: kn },
   hi: { translation: hi },
+  te: { translation: te },
 }
 
 i18n
@@ -18,7 +20,7 @@ i18n
   .init({
     resources,
     fallbackLng: 'en',
-    supportedLngs: ['en', 'kn', 'hi'],
+    supportedLngs: ['en', 'kn', 'hi', 'te'],
     interpolation: { escapeValue: false },
     detection: {
       order: ['localStorage', 'navigator'],

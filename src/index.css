@@ -91,6 +91,17 @@ html[lang="hi"] body {
   line-height: 1.65;
 }
 
+html[lang="te"] {
+  --font-serif: "Noto Serif Telugu", "Noto Sans Telugu", serif;
+  --font-sans: "Noto Sans Telugu", system-ui, sans-serif;
+  --font-section: "Noto Serif Telugu", "Noto Sans Telugu", serif;
+  --font-prose: "Noto Serif Telugu", "Noto Sans Telugu", serif;
+}
+
+html[lang="te"] body {
+  line-height: 1.65;
+}
+
 .font-serif {
   font-family: var(--font-serif);
 }
@@ -110,7 +121,8 @@ html[lang="hi"] body {
 }
 
 html[lang="kn"] .prose-text,
-html[lang="hi"] .prose-text {
+html[lang="hi"] .prose-text,
+html[lang="te"] .prose-text {
   line-height: 1.9;
 }
 
