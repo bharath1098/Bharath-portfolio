@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "home": "होम",
+    "about": "मेरे बारे में",
+    "details": "विवरण",
+    "career": "शिक्षा और करियर",
+    "family": "परिवार",
+    "preferences": "प्राथमिकताएँ",
+    "gallery": "गैलरी",
+    "contact": "संपर्क"
+  },
+  "hero": {
+    "subtitle": "{{age}} · {{profession}} · {{location}}",
+    "tagline": "पारिवारिक मूल्यों, सम्मान और परंपराओं पर आधारित जीवनसाथी की तलाश।",
+    "viewProfile": "प्रोफ़ाइल देखें",
+    "contactFamily": "परिवार से संपर्क"
+  },
+  "about": {
+    "title": "मेरे बारे में",
+    "description": "मैं Bharath Kumar K (Yuvaraj) हूँ, भद्रावती से B.E. ECE स्नातक। 2016–2020 में स्नातक के बाद 2020–2023 तक UPSC की तैयारी की, फिर सॉफ्टवेयर विकास में आया। वर्तमान में KinetiCloud में Mid Level Full Stack Developer हूँ। Kuruba समुदाय से, व्यापार और खेती पृष्ठभूमि वाले परिवार से।",
+    "traits": {
+      "honest": "ईमानदार",
+      "family": "परिवार-केंद्रित",
+      "ambitious": "महत्वाकांक्षी",
+      "calm": "शांत",
+      "respectful": "सम्मानजनक",
+      "career": "करियर-केंद्रित"
+    },
+    "hobbies": {
+      "reading": "पढ़ना",
+      "travel": "यात्रा",
+      "fitness": "फिटनेस",
+      "technology": "प्रौद्योगिकी",
+      "cooking": "खाना बनाना",
+      "photography": "फोटोग्राफी"
+    },
+    "traitsTitle": "व्यक्तित्व",
+    "hobbiesTitle": "रुचियाँ और शौक"
+  },
+  "details": {
+    "title": "व्यक्तिगत विवरण",
+    "dob": "जन्म तिथि",
+    "birthTime": "जन्म समय",
+    "height": "ऊँचाई",
+    "caste": "जाति",
+    "kankana": "कंकण",
+    "rashi": "राशि",
+    "nakshatra": "नक्षत्र",
+    "nativePlace": "मूल स्थान",
+    "maritalStatus": "वैवाहिक स्थिति",
+    "languages": "भाषाएँ"
+  },
+  "career": {
+    "title": "शिक्षा और करियर",
+    "timeline": {
+      "education": "B.E. Electronics and Communication Engineering",
+      "upsc": "UPSC Preparation",
+      "job1": "Gaian Solution — Full Stack Java Developer",
+      "job2": "KinetiCloud — Mid Level Full Stack Developer"
+    }
+  },
+  "family": {
+    "title": "पारिवारिक पृष्ठभूमि",
+    "description": "मेरे पिता Kanakaraj व्यापार और खेती में हैं, और मेरी माता Roopa गृहिणी हैं। हम भद्रावती के सम्मानित Kuruba परिवार से हैं। Kariyappa और Aravamma देवताओं के प्रति हमारी गहरी श्रद्धा है। मेरा एक छोटा भाई B.E. Civil Engineering कर रहा है।",
+    "labels": {
+      "father": "पिता",
+      "mother": "माँ",
+      "brother": "भाई"
+    }
+  },
+  "preferences": {
+    "title": "जीवनसाथी की प्राथमिकताएँ",
+    "description": "मैं 27 वर्ष से कम आयु की शिक्षित, सम्मानजनक और परिवार-केंद्रित महिला की तलाश में हूँ। जो परंपरा, करुणा और व्यक्तिगत विकास को महत्व दे। शिक्षा: स्नातक या उससे अधिक। स्थान: Karnataka।",
+    "cards": {
+      "age": "आयु: 27 से कम",
+      "education": "स्नातक या उससे अधिक",
+      "values": "परिवार, परंपरा, सम्मान",
+      "location": "Karnataka"
+    }
+  },
+  "gallery": {
+    "title": "फोटो गैलरी"
+  },
+  "contact": {
+    "title": "संपर्क और पूछताछ",
+    "subtitle": "इच्छुक परिवार नीचे दिए गए फॉर्म के माध्यम से संपर्क कर सकते हैं।",
+    "name": "पूरा नाम",
+    "phone": "फ़ोन नंबर",
+    "email": "ईमेल पता",
+    "relation": "आपका संबंध",
+    "message": "संदेश",
+    "relations": {
+      "family": "परिवार",
+      "friend": "मित्र",
+      "self": "स्वयं"
+    },
+    "submit": "पूछताछ भेजें",
+    "success": "धन्यवाद! आपका संदेश प्राप्त हो गया। हम जल्द जवाब देंगे।",
+    "privacy": "इस साइट की सभी जानकारी सद्भावना से केवल विवाह उद्देश्यों के लिए साझा की गई है।",
+    "directContact": "सीधा संपर्क"
+  },
+  "footer": {
+    "rights": "सर्वाधिकार सुरक्षित।",
+    "purpose": "विवाह पोर्टफोलियो — सम्मान और ईमानदारी के साथ साझा।"
+  },
+  "whatsapp": {
+    "label": "WhatsApp पर चैट करें"
+  },
+  "instagram": {
+    "label": "Instagram पर फॉलो करें"
+  },
+  "connect": {
+    "label": "संपर्क करें",
+    "close": "संपर्क मेनू बंद करें",
+    "phone": "कॉल करें"
+  }
+}

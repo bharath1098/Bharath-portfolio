@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "details": "Details",
+    "career": "Career",
+    "family": "Family",
+    "preferences": "Preferences",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "subtitle": "{{age}} · {{profession}} · {{location}}",
+    "tagline": "Seeking a life partner rooted in family values, respect, and shared traditions.",
+    "viewProfile": "View Profile",
+    "contactFamily": "Contact Family"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I am Bharath Kumar K (Yuvaraj), a B.E. ECE graduate from Bhadravathi. After completing my degree (2016–2020), I prepared for UPSC (2020–2023) before transitioning into software development. I currently work as a Mid Level Full Stack Developer at KinetiCloud. I belong to the Kuruba community with a family background in business and farming. I value honesty, education, and strong family bonds.",
+    "traits": {
+      "honest": "Honest",
+      "family": "Family-Oriented",
+      "ambitious": "Ambitious",
+      "calm": "Calm",
+      "respectful": "Respectful",
+      "career": "Career-Focused"
+    },
+    "hobbies": {
+      "reading": "Reading",
+      "travel": "Travel",
+      "fitness": "Fitness",
+      "technology": "Technology",
+      "cooking": "Cooking",
+      "photography": "Photography"
+    },
+    "traitsTitle": "Personality",
+    "hobbiesTitle": "Interests & Hobbies"
+  },
+  "details": {
+    "title": "Personal Details",
+    "dob": "Date of Birth",
+    "birthTime": "Birth Time",
+    "height": "Height",
+    "caste": "Caste",
+    "kankana": "Kankana",
+    "rashi": "Rashi",
+    "nakshatra": "Nakshatra",
+    "nativePlace": "Native Place",
+    "maritalStatus": "Marital Status",
+    "languages": "Languages"
+  },
+  "career": {
+    "title": "Education & Career",
+    "timeline": {
+      "education": "B.E. in Electronics and Communication Engineering",
+      "upsc": "UPSC Preparation",
+      "job1": "Gaian Solution — Full Stack Java Developer",
+      "job2": "KinetiCloud — Mid Level Full Stack Developer"
+    }
+  },
+  "family": {
+    "title": "Family Background",
+    "description": "My father Kanakaraj is engaged in business and farming, and my mother Roopa is a housewife. We belong to a respected Kuruba family from Bhadravathi. We have deep devotion to Kariyappa and Aravamma. I have one younger brother pursuing B.E. in Civil Engineering. We value education, tradition, and strong family bonds.",
+    "labels": {
+      "father": "Father",
+      "mother": "Mother",
+      "brother": "Brother"
+    }
+  },
+  "preferences": {
+    "title": "Partner Preferences",
+    "description": "I am looking for an educated, respectful, and family-oriented woman below 27 years of age. Someone who values tradition, kindness, and personal growth. Education: Bachelor's degree or higher preferred. Location preference: Karnataka.",
+    "cards": {
+      "age": "Age: Below 27",
+      "education": "Bachelor's or higher",
+      "values": "Family, tradition, respect",
+      "location": "Karnataka"
+    }
+  },
+  "gallery": {
+    "title": "Photo Gallery"
+  },
+  "contact": {
+    "title": "Contact & Inquiry",
+    "subtitle": "Interested families may reach out through the form below.",
+    "name": "Full Name",
+    "phone": "Phone Number",
+    "email": "Email Address",
+    "relation": "Your Relation",
+    "message": "Message",
+    "relations": {
+      "family": "Family",
+      "friend": "Friend",
+      "self": "Self"
+    },
+    "submit": "Send Inquiry",
+    "success": "Thank you! Your message has been received. We will respond shortly.",
+    "privacy": "All information on this site is shared in good faith for marriage purposes only.",
+    "directContact": "Direct Contact"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "purpose": "Marriage portfolio — shared with respect and sincerity."
+  },
+  "whatsapp": {
+    "label": "Chat on WhatsApp"
+  },
+  "instagram": {
+    "label": "Follow on Instagram"
+  },
+  "connect": {
+    "label": "Connect",
+    "close": "Close connect menu",
+    "phone": "Call"
+  }
+}

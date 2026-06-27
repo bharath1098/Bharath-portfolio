@@ -1,0 +1,54 @@
+{
+  "name": "Bharath Kumar K",
+  "nickname": "Yuvaraj",
+  "age": 28,
+  "height": "5'6\"",
+  "location": "Bhadravathi, Karnataka",
+  "profession": "Mid Level Full Stack Developer · KinetiCloud",
+  "email": "2021bharathkumar@gmail.com",
+  "phone": "+91 8880317459",
+  "whatsapp": "918880317459",
+  "instagram": "bharath__kumar_98",
+  "education": {
+    "degree": "B.E. Electronics & Communication Engineering",
+    "university": "",
+    "year": "2020"
+  },
+  "details": {
+    "dob": "10 June 1998",
+    "birthTime": "Wednesday, 12:27 PM",
+    "height": "5'6\" (167 cm)",
+    "caste": "Kuruba",
+    "kankana": "Unne Kankana",
+    "rashi": "Vrishchika (Scorpio)",
+    "nakshatra": "Jyeshtha",
+    "nativePlace": "Bhadravathi, Karnataka",
+    "maritalStatus": "Never Married",
+    "languages": "Kannada, English, Hindi"
+  },
+  "family": {
+    "occupation": "Business, Farming",
+    "deities": "Kariyappa, Aravamma",
+    "members": [
+      { "id": "father", "name": "Kanakaraj", "detail": "Business, Farming" },
+      { "id": "mother", "name": "Roopa", "detail": "Housewife" },
+      { "id": "brother", "name": "Younger Brother", "detail": "B.E. Civil Engineering" }
+    ]
+  },
+  "photos": [
+    "/photos/profile.png",
+    "/photos/profile-2.png",
+    "/photos/profile-3.png",
+    "/photos/profile-4.png",
+    "/photos/profile-5.png",
+    "/photos/profile-6.png",
+    "/photos/profile-7.png"
+  ],
+  "heroPhoto": "/photos/hero.png",
+  "timeline": [
+    { "period": "2016–2020", "key": "timeline.education" },
+    { "period": "2020–2023", "key": "timeline.upsc" },
+    { "period": "2023–2024", "key": "timeline.job1" },
+    { "period": "2024–Present", "key": "timeline.job2" }
+  ]
+}

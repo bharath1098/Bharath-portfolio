@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --radius-lg: 0.625rem;
+  --color-ag-bg: var(--app-bg);
+  --color-ag-forest: var(--app-forest);
+  --color-ag-emerald: var(--app-emerald);
+  --color-ag-sage: var(--app-sage);
+  --color-ag-gold: var(--app-gold);
+  --color-ag-muted: var(--app-muted);
+  --color-ag-border: var(--app-border);
+  --color-ag-secondary: var(--app-secondary);
+  --color-ag-card: var(--app-card);
+  --color-ag-sidebar: var(--app-sidebar);
+  --color-ag-foreground: var(--app-foreground);
+  --color-navy: var(--app-sidebar);
+  --color-charcoal: var(--app-muted);
+  --color-gold: var(--app-gold);
+  --color-gold-light: var(--app-sage);
+  --color-cream: var(--app-bg);
+}
+
+/* default: royal gold */
+:root {
+  --app-bg: #faf7f2;
+  --app-forest: #0f172a;
+  --app-emerald: #0f172a;
+  --app-sage: #e8c547;
+  --app-gold: #c9a227;
+  --app-muted: #64748b;
+  --app-border: #e8e0d4;
+  --app-secondary: #f5f0e8;
+  --app-card: #ffffff;
+  --app-sidebar: #0f172a;
+  --app-foreground: #f8fafc;
+  --gradient-start: #e8c547;
+  --gradient-mid: #c9a227;
+  --gradient-end: #0f172a;
+  --hero-glow-1: rgba(201, 162, 39, 0.15);
+  --hero-glow-2: rgba(15, 23, 42, 0.08);
+  --shine-color: rgba(201, 162, 39, 0.1);
+  --btn-shadow: rgba(201, 162, 39, 0.35);
+  --card-shadow: rgba(15, 23, 42, 0.08);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--app-bg);
+  color: var(--app-forest);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.gold-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--gradient-start) 0%,
+    var(--gradient-mid) 50%,
+    var(--gradient-end) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-pattern {
+  background-image:
+    radial-gradient(circle at 20% 50%, var(--hero-glow-1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, var(--hero-glow-2) 0%, transparent 40%);
+}
+
+.ag-card {
+  @apply rounded-xl border border-ag-border bg-ag-card shadow-sm;
+}
+
+.ag-card-hover {
+  @apply transition-shadow hover:shadow-md;
+}
+
+.ag-card-hover:hover {
+  box-shadow: 0 8px 24px var(--card-shadow);
+}
+
+.ag-btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-lg bg-ag-gold px-8 py-3.5 font-semibold text-white transition-colors hover:bg-ag-forest;
+  box-shadow: 0 4px 14px var(--btn-shadow);
+}
+
+.ag-btn-outline {
+  @apply inline-flex items-center justify-center gap-2 rounded-lg border border-ag-sage/50 px-8 py-3.5 text-ag-foreground transition-colors hover:bg-white/10 hover:border-ag-sage;
+}
+
+.ag-input {
+  @apply w-full rounded-lg border border-ag-border bg-ag-card px-4 py-3 text-ag-forest transition-shadow focus:outline-none focus:ring-2 focus:ring-ag-gold/40 focus:border-ag-gold;
+}
+
+.card-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-shine::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, var(--shine-color), transparent);
+  transition: left 0.6s ease;
+}
+
+.card-shine:hover::before {
+  left: 100%;
+}
