@@ -18,21 +18,22 @@ export default function Hero() {
   })
 
   return (
-    <section id="home" ref={ref} className="relative min-h-screen flex items-center overflow-hidden bg-ag-sidebar">
+    <section id="home" ref={ref} className="relative min-h-[100dvh] flex items-end lg:items-center overflow-hidden bg-ag-sidebar">
       <motion.div style={{ y }} className="absolute inset-0">
         <img
           src={profile.heroPhoto}
-          alt={profile.name}
-          className="w-full h-full object-cover opacity-25"
+          alt=""
+          aria-hidden
+          className="absolute inset-0 w-full h-full object-cover object-[center_15%] sm:object-center scale-105 lg:scale-100 opacity-55 sm:opacity-45 lg:opacity-25"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-ag-sidebar/90 via-ag-forest/80 to-ag-sidebar" />
+        <div className="absolute inset-0 bg-gradient-to-t from-ag-sidebar via-ag-sidebar/75 to-ag-sidebar/25 sm:bg-gradient-to-b sm:from-ag-sidebar/75 sm:via-ag-forest/55 sm:to-ag-sidebar/90 lg:from-ag-sidebar/90 lg:via-ag-forest/80 lg:to-ag-sidebar" />
       </motion.div>
 
       <div className="absolute inset-0 hero-pattern" />
 
-      <motion.div style={{ opacity }} className="relative z-10 max-w-6xl mx-auto px-4 md:px-8 pt-32 pb-20 w-full">
+      <motion.div style={{ opacity }} className="relative z-10 max-w-6xl mx-auto px-4 md:px-8 pt-28 pb-20 lg:pt-32 lg:pb-20 w-full">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div>
+          <div className="text-center lg:text-start">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -74,7 +75,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.7 }}
-              className="text-ag-foreground/70 text-lg md:text-xl max-w-lg mb-10 leading-relaxed"
+              className="text-ag-foreground/70 text-lg md:text-xl max-w-lg mb-10 leading-relaxed mx-auto lg:mx-0"
             >
               {t('hero.tagline')}
             </motion.p>
@@ -83,7 +84,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.85 }}
-              className="flex flex-wrap gap-4"
+              className="flex flex-wrap gap-4 justify-center lg:justify-start"
             >
               <motion.a
                 href="#about"
